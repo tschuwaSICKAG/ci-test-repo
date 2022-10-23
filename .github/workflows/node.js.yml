@@ -57,7 +57,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: http://tschuwaSICKAG.github.io/tschuwaSICKAG/ci-test-repo
+      url: http://tschuwaSICKAG.github.io/ci-test-repo
       #url: ${{ steps.deployment.outputs.page_url }}
     
     runs-on: ubuntu-latest
