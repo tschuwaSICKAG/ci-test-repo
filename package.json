@@ -1,0 +1,24 @@
+{
+  "name": "ci-test-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "build:doc": "cross-env BASE_URL=ci-test-repo vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschuwaSICKAG/ci-test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tschuwaSICKAG/ci-test-repo/issues"
+  },
+  "homepage": "https://github.com/tschuwaSICKAG/ci-test-repo#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.52"
+  }
+}
