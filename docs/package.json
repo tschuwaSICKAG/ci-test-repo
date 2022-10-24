@@ -1,6 +1,6 @@
 {
-  "name": "@sick-davinci/collage-docs",
-  "version": "1.0.0",
+  "name": "test-collage-docs-slkdfjlskd",
+  "version": "0.0.1",
   "description": "Documentation App for the collage lib",
   "main": "vuepress-config.js",
   "directories": {
